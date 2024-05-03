@@ -1,0 +1,139 @@
+html {
+  height: 150%;
+  width: 100%;
+  background-color: #8fff70;
+  color: #df4949;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  padding: 20px;
+  text-align: center;
+
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+
+}
+
+.OtherWeb {
+  text-decoration: none;
+}
+
+.OtherWeb:hover {
+  color: red;
+  box-shadow: 0rem 0.5rem 0.5rem -.2rem;
+  transition: 2s;
+  transform: rotate(360deg);
+  display: inline-block;
+}
+
+.OtherWeb:active {
+  color: green;
+}
+
+.OtherWeb:visited {
+  color: blue;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.email {
+  color: blue;
+  text-decoration: underline;
+  
+}
+
+.email:hover{
+  color: red;
+  box-shadow: 0rem 0.5rem 0.5rem -.2rem;
+  width: 10rem;
+  border-radius: 30px;
+  transition: 1s ease-in-out;
+  
+}
+
+.email:active{
+  color: green;
+  
+}
+
+.email:visited{
+  color: blue;
+  
+}
+
+.mail_icon{
+  color: blue;
+  text-decoration: underline;
+  
+}
+
+.mail_icon:hover{
+  color: red;
+  box-shadow: 0rem 0.5rem 0.5rem -.2rem;
+  transition: 2s;
+  display: inline-block;
+  
+}
+
+.mail_icon:active{
+  color: green;
+  
+}
+
+.mail_icon:visited{
+  color: blue;
+  
+}
+
