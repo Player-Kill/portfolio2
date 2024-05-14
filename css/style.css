@@ -40,7 +40,9 @@ footer {
 h1 {
   font-size: 36px;
   margin-bottom: 10px;
-
+  background-image: linear-gradient(to right, #ff0000, #ff7b00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
+  color: black;
+  
 }
 
 h2 {
