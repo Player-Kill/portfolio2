@@ -22,7 +22,8 @@ font-size: 2rem;
 }
 
 .nav-phone{
-  font-size: clamp(1rem, -6.4rem + 37vw, 38rem);  display: none;
+  font-size: clamp(1rem, -6.4rem + 37vw, 38rem);  
+  display: none;
   
 }
 

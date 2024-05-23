@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+  background-image: url("https://www.teahub.io/photos/full/15-156428_abstract-wallpaper-tribal-wallpapers-hd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: clamp(3rem, 6vw, 4rem);
+  transition: 1s ease-in-out;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: red;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  color: green;
+}
+
+nav a:active {
+  color: blue;
+}
+
+a{
+  color: black;
+}
+
+@media (min-width: 36.0625rem) and (max-width: 75rem) {
+  nav {
+    font-size: 1.5rem;
+  }
+
+  a {
+    font-size: 3rem;
+  }
+
+}
+
+@media (min-width: 75rem) and (max-width: 87.5rem) {
+  nav {
+    font-size: 2rem;
+  }
+
+  a {
+    font-size: 4rem;
+  }
+
+}
